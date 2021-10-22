@@ -1,0 +1,27 @@
+{
+  "name": "31-parcel",
+  "version": "1.0.0",
+  "description": "31-parcel-project",
+  "main": "index.js",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --no-minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandy0529/parcel-project.git"
+  },
+  "author": "minji sibal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mandy0529/parcel-project/issues"
+  },
+  "homepage": "https://github.com/mandy0529/parcel-project#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.43.3"
+  }
+}
